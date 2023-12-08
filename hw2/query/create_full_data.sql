@@ -1,0 +1,80 @@
+CREATE TABLE "OxCGRT_nat_latest" (
+    "CountryName" VARCHAR NOT NULL,
+    "CountryCode" CHAR(3), 
+    "RegionName" VARCHAR, 
+    "RegionCode" CHAR(2), 
+    "Jurisdiction" VARCHAR, 
+    "Date" CHAR(8) NOT NULL,
+    "C1M_School closing" numeric(1), 
+    "C1M_Flag" numeric(1), 
+    "C2M_Workplace closing" numeric(1), 
+    "C2M_Flag" numeric(1), 
+    "C3M_Cancel public events" numeric(1), 
+    "C3M_Flag" numeric(1), 
+    "C4M_Restrictions on gatherings" numeric(1), 
+    "C4M_Flag" numeric(1), 
+    "C5M_Close public transport" numeric(1), 
+    "C5M_Flag" numeric(1), 
+    "C6M_Stay at home requirements" numeric(1), 
+    "C6M_Flag" numeric(1), 
+    "C7M_Restrictions on internal movement" numeric(1), 
+    "C7M_Flag" numeric(1), 
+    "C8EV_international travel controls" numeric(1), 
+    "E1_Income support" numeric(1), 
+    "E1_Flag" numeric(1), 
+    "E2_Debt/contract relief" numeric(1), 
+    "E3_Fiscal measures" numeric, 
+    "E4_International support" numeric, 
+    "H1_Public information campaigns" numeric(1),
+    "H1_Flag" numeric(1),
+    "H2_Testing policy" numeric(1),
+    "H3_Contact tracing" numeric(1),
+    "H4_Emergency investment in healthcare" numeric,
+    "H5_Investment in vaccines" numeric,
+    "H6M_Facial Coverings" numeric(1),
+    "H6M_Flag" numeric(1),
+    "H7_Vaccination policy" numeric(1),
+    "H7_Flag" numeric(1),
+    "H8M_Protection of elderly people" numeric(1),
+    "H8M_Flag" numeric(1),
+    "M1_Wildcard" numeric, 
+    "V1_Vaccine Prioritisation (summary)" numeric(1), 
+    "V2A_Vaccine Availability (summary)" numeric(1), 
+    "V2B_Vaccine age eligibility/availability age floor (general population summary)" varchar, 
+    "V2C_Vaccine age eligibility/availability age floor (at risk summary)" varchar, 
+    "V2D_Medically/ clinically vulnerable (Non-elderly)" numeric(1), 
+    "V2E_Education" numeric(1), 
+    "V2F_Frontline workers  (non healthcare)" numeric(1), 
+    "V2G_Frontline workers  (healthcare)" numeric(1), 
+    "V3_Vaccine Financial Support (summary)" numeric(1), 
+    "V4_Mandatory Vaccination (summary)" numeric(1),
+    "ConfirmedCases" int, 
+    "ConfirmedDeaths" int, 
+    "MajorityVaccinated" VARCHAR, 
+    "PopulationVaccinated" numeric(5,2), 
+    "StringencyIndex_Average" numeric(5,2), 
+    "StringencyIndex_Average_ForDisplay" numeric(5,2), 
+    "GovernmentResponseIndex_Average" numeric(5,2),
+    "GovernmentResponseIndex_Average_ForDisplay" numeric(5,2), 
+    "ContainmentHealthIndex_Average" numeric(5,2),
+    "ContainmentHealthIndex_Average_ForDisplay" numeric(5,2), 
+    "EconomicSupportIndex" numeric(5,2),
+    "EconomicSupportIndex_ForDisplay" numeric(5,2)
+);
+
+CREATE TABLE "country-and-continent-codes-list-csv" (
+    "Continent_Name" VARCHAR NOT NULL, 
+    "Continent_Code" char(2) NOT NULL,
+    "Country_Name" VARCHAR NOT NULL,
+    "Two_Letter_Country_Code" char(2),
+    "Three_Letter_Country_Code" char(3),
+    "Country_Number" int
+);
+
+SET client_encoding = 'UTF8';
+
+\copy "OxCGRT_nat_latest" from '/mnt/c/Users/dytso/src/db2023/hw2/source/OxCGRT_nat_latest.csv' CSV HEADER;
+\copy "country-and-continent-codes-list-csv" from '/mnt/c/Users/dytso/src/db2023/hw2/source/country-and-continent-codes-list-csv.csv' CSV HEADER;
+
+alter table "OxCGRT_nat_latest" add column id serial primary key;
+alter table "country-and-continent-codes-list-csv" add column id serial primary key;

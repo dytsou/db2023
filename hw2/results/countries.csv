@@ -1,0 +1,187 @@
+name,jurisdiction,two_letter_code,three_letter_code,number,continent
+"Uganda, Republic of",NAT_TOTAL,UG,UGA,800,Africa
+"Algeria, People''s Democratic Republic of",NAT_TOTAL,DZ,DZA,12,Africa
+Canada,NAT_TOTAL,CA,CAN,124,North America
+United States Virgin Islands,NAT_TOTAL,VI,VIR,850,North America
+"Hong Kong, Special Administrative Region of China",NAT_TOTAL,HK,HKG,344,Asia
+"Liechtenstein, Principality of",NAT_TOTAL,LI,LIE,438,Europe
+"Italy, Italian Republic",NAT_TOTAL,IT,ITA,380,Europe
+"Tanzania, United Republic of",NAT_TOTAL,TZ,TZA,834,Africa
+"Germany, Federal Republic of",NAT_TOTAL,DE,DEU,276,Europe
+"France, French Republic",NAT_TOTAL,FR,FRA,250,Europe
+"Iran, Islamic Republic of",NAT_TOTAL,IR,IRN,364,Asia
+"Colombia, Republic of",NAT_TOTAL,CO,COL,170,South America
+"Senegal, Republic of",NAT_TOTAL,SN,SEN,686,Africa
+"Azerbaijan, Republic of",NAT_TOTAL,AZ,AZE,31,Europe
+Greenland,NAT_TOTAL,GL,GRL,304,North America
+"Saudi Arabia, Kingdom of",NAT_TOTAL,SA,SAU,682,Asia
+"Finland, Republic of",NAT_TOTAL,FI,FIN,246,Europe
+"Gabon, Gabonese Republic",NAT_TOTAL,GA,GAB,266,Africa
+"Chile, Republic of",NAT_TOTAL,CL,CHL,152,South America
+"Paraguay, Republic of",NAT_TOTAL,PY,PRY,600,South America
+"Singapore, Republic of",NAT_TOTAL,SG,SGP,702,Asia
+"Kenya, Republic of",NAT_TOTAL,KE,KEN,404,Africa
+"Peru, Republic of",NAT_TOTAL,PE,PER,604,South America
+"Ethiopia, Federal Democratic Republic of",NAT_TOTAL,ET,ETH,231,Africa
+Jamaica,NAT_TOTAL,JM,JAM,388,North America
+"Latvia, Republic of",NAT_TOTAL,LV,LVA,428,Europe
+"Israel, State of",NAT_TOTAL,IL,ISR,376,Asia
+"Liberia, Republic of",NAT_TOTAL,LR,LBR,430,Africa
+"Botswana, Republic of",NAT_TOTAL,BW,BWA,72,Africa
+United States of America,NAT_TOTAL,US,USA,840,North America
+Libyan Arab Jamahiriya,NAT_TOTAL,LY,LBY,434,Africa
+"Australia, Commonwealth of",NAT_TOTAL,AU,AUS,36,Oceania
+"Jordan, Hashemite Kingdom of",NAT_TOTAL,JO,JOR,400,Asia
+"Greece, Hellenic Republic",NAT_TOTAL,GR,GRC,300,Europe
+"Austria, Republic of",NAT_TOTAL,AT,AUT,40,Europe
+"Thailand, Kingdom of",NAT_TOTAL,TH,THA,764,Asia
+"Bangladesh, People''s Republic of",NAT_TOTAL,BD,BGD,50,Asia
+"Zimbabwe, Republic of",NAT_TOTAL,ZW,ZWE,716,Africa
+"Papua New Guinea, Independent State of",NAT_TOTAL,PG,PNG,598,Oceania
+"Switzerland, Swiss Confederation",NAT_TOTAL,CH,CHE,756,Europe
+"Puerto Rico, Commonwealth of",NAT_TOTAL,PR,PRI,630,North America
+"Panama, Republic of",NAT_TOTAL,PA,PAN,591,North America
+"Lesotho, Kingdom of",NAT_TOTAL,LS,LSO,426,Africa
+Georgia,NAT_TOTAL,GE,GEO,268,Europe
+"Sierra Leone, Republic of",NAT_TOTAL,SL,SLE,694,Africa
+"Kuwait, State of",NAT_TOTAL,KW,KWT,414,Asia
+United Kingdom of Great Britain & Northern Ireland,NAT_TOTAL,GB,GBR,826,Europe
+"Dominica, Commonwealth of",NAT_TOTAL,DM,DMA,212,North America
+Central African Republic,NAT_TOTAL,CF,CAF,140,Africa
+"Tunisia, Tunisian Republic",NAT_TOTAL,TN,TUN,788,Africa
+"Monaco, Principality of",NAT_TOTAL,MC,MCO,492,Europe
+"Serbia, Republic of",NAT_TOTAL,RS,SRB,688,Europe
+"Venezuela, Bolivarian Republic of",NAT_TOTAL,VE,VEN,862,South America
+"Zambia, Republic of",NAT_TOTAL,ZM,ZMB,894,Africa
+"Togo, Togolese Republic",NAT_TOTAL,TG,TGO,768,Africa
+"Mozambique, Republic of",NAT_TOTAL,MZ,MOZ,508,Africa
+"El Salvador, Republic of",NAT_TOTAL,SV,SLV,222,North America
+"Cape Verde, Republic of",NAT_TOTAL,CV,CPV,132,Africa
+"Mexico, United Mexican States",NAT_TOTAL,MX,MEX,484,North America
+"Djibouti, Republic of",NAT_TOTAL,DJ,DJI,262,Africa
+"Malawi, Republic of",NAT_TOTAL,MW,MWI,454,Africa
+Malaysia,NAT_TOTAL,MY,MYS,458,Asia
+"Belgium, Kingdom of",NAT_TOTAL,BE,BEL,56,Europe
+"Norway, Kingdom of",NAT_TOTAL,NO,NOR,578,Europe
+"Costa Rica, Republic of",NAT_TOTAL,CR,CRI,188,North America
+"Egypt, Arab Republic of",NAT_TOTAL,EG,EGY,818,Africa
+"Kiribati, Republic of",NAT_TOTAL,KI,KIR,296,Oceania
+"Guatemala, Republic of",NAT_TOTAL,GT,GTM,320,North America
+"Qatar, State of",NAT_TOTAL,QA,QAT,634,Asia
+"Namibia, Republic of",NAT_TOTAL,NA,NAM,516,Africa
+"Oman, Sultanate of",NAT_TOTAL,OM,OMN,512,Asia
+"Rwanda, Republic of",NAT_TOTAL,RW,RWA,646,Africa
+Mongolia,NAT_TOTAL,MN,MNG,496,Asia
+"Benin, Republic of",NAT_TOTAL,BJ,BEN,204,Africa
+"Burundi, Republic of",NAT_TOTAL,BI,BDI,108,Africa
+"South Africa, Republic of",NAT_TOTAL,ZA,ZAF,710,Africa
+"Madagascar, Republic of",NAT_TOTAL,MG,MDG,450,Africa
+Burkina Faso,NAT_TOTAL,BF,BFA,854,Africa
+Czech Republic,NAT_TOTAL,CZ,CZE,203,Europe
+"Cyprus, Republic of",NAT_TOTAL,CY,CYP,196,Europe
+"Bahrain, Kingdom of",NAT_TOTAL,BH,BHR,48,Asia
+Ireland,NAT_TOTAL,IE,IRL,372,Europe
+"Fiji, Republic of the Fiji Islands",NAT_TOTAL,FJ,FJI,242,Oceania
+"Congo, Democratic Republic of the",NAT_TOTAL,CD,COD,180,Africa
+"Croatia, Republic of",NAT_TOTAL,HR,HRV,191,Europe
+Turkmenistan,NAT_TOTAL,TM,TKM,795,Asia
+"Sri Lanka, Democratic Socialist Republic of",NAT_TOTAL,LK,LKA,144,Asia
+"Iraq, Republic of",NAT_TOTAL,IQ,IRQ,368,Asia
+"Palestinian Territory, Occupied",NAT_TOTAL,PS,PSE,275,Asia
+"Bhutan, Kingdom of",NAT_TOTAL,BT,BTN,64,Asia
+"Nepal, State of",NAT_TOTAL,NP,NPL,524,Asia
+"Tonga, Kingdom of",NAT_TOTAL,TO,TON,776,Oceania
+"Portugal, Portuguese Republic",NAT_TOTAL,PT,PRT,620,Europe
+"Guyana, Co-operative Republic of",NAT_TOTAL,GY,GUY,328,South America
+Grenada,NAT_TOTAL,GD,GRD,308,North America
+"Macao, Special Administrative Region of China",NAT_TOTAL,MO,MAC,446,Asia
+"Slovenia, Republic of",NAT_TOTAL,SI,SVN,705,Europe
+Japan,NAT_TOTAL,JP,JPN,392,Asia
+"Uzbekistan, Republic of",NAT_TOTAL,UZ,UZB,860,Asia
+"Andorra, Principality of",NAT_TOTAL,AD,AND,20,Europe
+"Denmark, Kingdom of",NAT_TOTAL,DK,DNK,208,Europe
+"Afghanistan, Islamic Republic of",NAT_TOTAL,AF,AFG,4,Asia
+Kyrgyz Republic,NAT_TOTAL,KG,KGZ,417,Asia
+"Malta, Republic of",NAT_TOTAL,MT,MLT,470,Europe
+"Cote d''Ivoire, Republic of",NAT_TOTAL,CI,CIV,384,Africa
+"Tajikistan, Republic of",NAT_TOTAL,TJ,TJK,762,Asia
+"Honduras, Republic of",NAT_TOTAL,HN,HND,340,North America
+Solomon Islands,NAT_TOTAL,SB,SLB,90,Oceania
+"Bolivia, Republic of",NAT_TOTAL,BO,BOL,68,South America
+"Swaziland, Kingdom of",NAT_TOTAL,SZ,SWZ,748,Africa
+"Ecuador, Republic of",NAT_TOTAL,EC,ECU,218,South America
+"Congo, Republic of the",NAT_TOTAL,CG,COG,178,Africa
+"Vanuatu, Republic of",NAT_TOTAL,VU,VUT,548,Oceania
+Romania,NAT_TOTAL,RO,ROU,642,Europe
+"Vietnam, Socialist Republic of",NAT_TOTAL,VN,VNM,704,Asia
+"Albania, Republic of",NAT_TOTAL,AL,ALB,8,Europe
+"Trinidad and Tobago, Republic of",NAT_TOTAL,TT,TTO,780,North America
+Yemen,NAT_TOTAL,YE,YEM,887,Asia
+Ukraine,NAT_TOTAL,UA,UKR,804,Europe
+"Bahamas, Commonwealth of the",NAT_TOTAL,BS,BHS,44,North America
+Lao People's Democratic Republic,NAT_TOTAL,LA,LAO,418,Asia
+"Spain, Kingdom of",NAT_TOTAL,ES,ESP,724,Europe
+Brunei Darussalam,NAT_TOTAL,BN,BRN,96,Asia
+Russian Federation,NAT_TOTAL,RU,RUS,643,Europe
+Guam,NAT_TOTAL,GU,GUM,316,Oceania
+"Angola, Republic of",NAT_TOTAL,AO,AGO,24,Africa
+"Uruguay, Eastern Republic of",NAT_TOTAL,UY,URY,858,South America
+"Moldova, Republic of",NAT_TOTAL,MD,MDA,498,Europe
+"Argentina, Argentine Republic",NAT_TOTAL,AR,ARG,32,South America
+Dominican Republic,NAT_TOTAL,DO,DOM,214,North America
+"Bulgaria, Republic of",NAT_TOTAL,BG,BGR,100,Europe
+"Hungary, Republic of",NAT_TOTAL,HU,HUN,348,Europe
+"Cuba, Republic of",NAT_TOTAL,CU,CUB,192,North America
+"Mauritania, Islamic Republic of",NAT_TOTAL,MR,MRT,478,Africa
+"Poland, Republic of",NAT_TOTAL,PL,POL,616,Europe
+"Morocco, Kingdom of",NAT_TOTAL,MA,MAR,504,Africa
+"Korea, Republic of",NAT_TOTAL,KR,KOR,410,Asia
+Bosnia and Herzegovina,NAT_TOTAL,BA,BIH,70,Europe
+"Suriname, Republic of",NAT_TOTAL,SR,SUR,740,South America
+"Philippines, Republic of the",NAT_TOTAL,PH,PHL,608,Asia
+"Chad, Republic of",NAT_TOTAL,TD,TCD,148,Africa
+"Nigeria, Federal Republic of",NAT_TOTAL,NG,NGA,566,Africa
+"Mauritius, Republic of",NAT_TOTAL,MU,MUS,480,Africa
+"China, People''s Republic of",NAT_TOTAL,CN,CHN,156,Asia
+Aruba,NAT_TOTAL,AW,ABW,533,North America
+"Netherlands, Kingdom of the",NAT_TOTAL,NL,NLD,528,Europe
+Barbados,NAT_TOTAL,BB,BRB,52,North America
+Belize,NAT_TOTAL,BZ,BLZ,84,North America
+South Sudan,NAT_TOTAL,SS,SSD,728,Africa
+"Sudan, Republic of",NAT_TOTAL,SD,SDN,736,Africa
+"Myanmar, Union of",NAT_TOTAL,MM,MMR,104,Asia
+"Timor-Leste, Democratic Republic of",NAT_TOTAL,TL,TLS,626,Asia
+"Estonia, Republic of",NAT_TOTAL,EE,EST,233,Europe
+Syrian Arab Republic,NAT_TOTAL,SY,SYR,760,Asia
+"Kazakhstan, Republic of",NAT_TOTAL,KZ,KAZ,398,Europe
+Bermuda,NAT_TOTAL,BM,BMU,60,North America
+"Somalia, Somali Republic",NAT_TOTAL,SO,SOM,706,Africa
+"San Marino, Republic of",NAT_TOTAL,SM,SMR,674,Europe
+"Luxembourg, Grand Duchy of",NAT_TOTAL,LU,LUX,442,Europe
+Taiwan,NAT_TOTAL,TW,TWN,158,Asia
+"Comoros, Union of the",NAT_TOTAL,KM,COM,174,Africa
+"Guinea, Republic of",NAT_TOTAL,GN,GIN,324,Africa
+Slovakia (Slovak Republic),NAT_TOTAL,SK,SVK,703,Europe
+"Indonesia, Republic of",NAT_TOTAL,ID,IDN,360,Asia
+"India, Republic of",NAT_TOTAL,IN,IND,356,Asia
+"Seychelles, Republic of",NAT_TOTAL,SC,SYC,690,Africa
+"Niger, Republic of",NAT_TOTAL,NE,NER,562,Africa
+Faroe Islands,NAT_TOTAL,FO,FRO,234,Europe
+"Sweden, Kingdom of",NAT_TOTAL,SE,SWE,752,Europe
+"Iceland, Republic of",NAT_TOTAL,IS,ISL,352,Europe
+"Lithuania, Republic of",NAT_TOTAL,LT,LTU,440,Europe
+"Eritrea, State of",NAT_TOTAL,ER,ERI,232,Africa
+"Cambodia, Kingdom of",NAT_TOTAL,KH,KHM,116,Asia
+"Pakistan, Islamic Republic of",NAT_TOTAL,PK,PAK,586,Asia
+"Gambia, Republic of the",NAT_TOTAL,GM,GMB,270,Africa
+"Lebanon, Lebanese Republic",NAT_TOTAL,LB,LBN,422,Asia
+"Ghana, Republic of",NAT_TOTAL,GH,GHA,288,Africa
+"Cameroon, Republic of",NAT_TOTAL,CM,CMR,120,Africa
+New Zealand,NAT_TOTAL,NZ,NZL,554,Oceania
+United Arab Emirates,NAT_TOTAL,AE,ARE,784,Asia
+"Turkey, Republic of",NAT_TOTAL,TR,TUR,792,Europe
+"Nicaragua, Republic of",NAT_TOTAL,NI,NIC,558,North America
+"Brazil, Federative Republic of",NAT_TOTAL,BR,BRA,76,South America
+"Mali, Republic of",NAT_TOTAL,ML,MLI,466,Africa
+"Haiti, Republic of",NAT_TOTAL,HT,HTI,332,North America
+"Belarus, Republic of",NAT_TOTAL,BY,BLR,112,Europe
