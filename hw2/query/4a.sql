@@ -4,6 +4,7 @@ CREATE view joined_data as(
 );
 
 CREATE view rank_low as(
+    -- if there is a tie, I would only select the country with the lower name so that the table could be good-looking.
     select country, continent, date, str, rank() over (partition by continent, date order by str asc, country asc) as r
     from joined_data
     where date in ('20221201', '20220401', '20210401', '20200401')
@@ -17,6 +18,7 @@ CREATE view lowest_rank as(
 );
 
 CREATE view rank_high as(
+    -- if there is a tie, I would only select the country with the lower name so that the table could be good-looking.
     select country, continent, date, str, rank() over (partition by continent, date order by str desc, country asc) as r
     from joined_data
     where date in ('20221201', '20220401', '20210401', '20200401')

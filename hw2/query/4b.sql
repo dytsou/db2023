@@ -1,21 +1,24 @@
 CREATE view joined_data as(
     select countries.name as country, countries.continent as continent, country_date.date as date, government_idx.stringency_avg as str, confirmed.cases as cases
     from (countries join (country_date join government_idx on country_date.id = government_idx.country_date_id) on countries.three_letter_code = country_date.country) join confirmed on country_date.id = confirmed.country_date_id
-    where date in ('20221125', '20221201', '20220326', '20220401', '20210326', '20210401', '20200326', '20200401')
+    where date in ('20221124', '20221201', '20220325', '20220401', '20210325', '20210401', '20200325', '20200401')
 );
 
 CREATE view diff as(
-    select country, continent, date, str, cases, (cases - lag(cases) over (partition by country, continent order by date))/7 as avg
+    select country, continent, date, str, cases, (cases - lag(cases) over (partition by country, continent order by date))/7.00 as avg
     from joined_data
 );
 
 create view over_table as(
-    select country, continent, date, (str/avg) as over_str
+    select country, continent, date, case 
+        when avg != 0 then (str/avg) 
+        when avg = 0 then (str/0.01)
+    end as over_str
     from diff
-    where avg != 0
 );
 
 CREATE view rank_low as(
+    -- if there is a tie, I would only select the country with the lower name so that the table could be good-looking.
     SELECT country, continent, over_str, date, rank() over (partition by continent, date order by over_str asc, country asc) as r
     FROM over_table
     where date in ('20221201', '20220401', '20210401', '20200401')
@@ -29,6 +32,7 @@ CREATE view lowest_rank as(
 );
 
 CREATE view rank_high as(
+    -- if there is a tie, I would only select the country with the lower name so that the table could be good-looking.
     SELECT country, continent, over_str, date, rank() over (partition by continent, date order by over_str desc, country asc) as r
     FROM over_table
     where date in ('20221201', '20220401', '20210401', '20200401')

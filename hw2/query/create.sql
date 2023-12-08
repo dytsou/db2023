@@ -11,7 +11,7 @@ create table countries(
     three_letter_code char(3) not null unique,
     number int not null unique,
     continent varchar(20) not null references continents(name),
-    primary key (name, continent)
+    primary key (name)
 );
 
 create table country_date(
