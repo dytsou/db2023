@@ -1,0 +1,3 @@
+[submodule "linebot"]
+	path = linebot
+	url = git@github.com:DB-CourseLinebot/linebot.git
